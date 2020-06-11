@@ -1,2 +1,2 @@
-# 10_06_sasakinorito
-ログイン機能がついた買い物アプリ
+# 09_06_sasakinorito
+PHP+DBの課題提出

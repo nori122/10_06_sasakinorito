@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Mincho&display=swap');
+/* 全体 */
+
+body{
+    background-color: #f2f2b0;    
+    color:#333325 ;
+    font-family :'Sawarabi Mincho','Nico Moji',sans-serif,serif;
+    line-height:1.5;
+    width: 100%;
+    margin:  0;
+
+}
+
+.input{
+    width: 100%;
+    height: 2.5rem;
+    border: 0px;
+    padding: 0px;
+  }
+
+a {
+  text-decoration:none;
+}
+
+a:visited {
+  color:f2f2b0;
+}
+
+  /* 主にinput */
+  .form {
+    -webkit-appearance: none;
+      width:120px;
+
+  }
+
+  button {
+    -webkit-appearance: none;
+  }
+
+  select{
+      height:2.5rem;
+      margin: 10px 0;
+      text-align: center;
+  }
+
+  .container{
+    display:flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .register{
+      width:100%;
+      height:30px
+  }
+
+  .outer{
+    display: flex;  
+    align-items:  center;
+    justify-content: center;
+    height: 70vh;
+  }
+
+
+.inner{
+  width: 82%;
+}
+
+  /* 主にRead */
+
+      .tab {
+        overflow: hidden;
+        border: 1px solid #ccc;
+        background-color: #f2f2b0;
+      }
+
+      .tab button {
+        background-color: inherit;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 8px 8px;
+        transition: 0.3s;
+        font-size: 15px;
+      }
+
+      .tab button:hover {
+        background-color: #ddd;
+      }
+
+      .tab button.active {
+        background-color: #ccc;
+      }
+
+      .tabcontent {
+        display: none;
+        padding: 6px 24px;
+        border: 1px solid #ccc;
+        border-top: none;
+      }
+
+      th {
+        text-align: left;
+        border-bottom: solid 1px lightgray;      }
+
+      td {
+        font-size: 14px;
+      }
+
+      .itemColumn {
+        width: 8.5rem;
+      }
+
+      .priorityColumn {
+        width: 4.5rem;
+      }
+
+      .my-white{
+          color: #333325;
+      }
+
+      .wf-hannari { font-family: "Hannari"; }
