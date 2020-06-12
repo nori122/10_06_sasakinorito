@@ -9,6 +9,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+
   <title>todoリストユーザ登録画面</title>
 </head>
 
@@ -16,6 +19,9 @@
   <form action="tobuy21_register_act.php" method="POST">
     <fieldset>
       <legend>todoリストユーザ登録画面</legend>
+      <div>
+        user_name: <input type="text" name="user_name">
+      </div>
       <div>
         user_id: <input type="text" name="user_id">
       </div>

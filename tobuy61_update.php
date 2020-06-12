@@ -44,6 +44,6 @@ if ($status == false) {
   exit();
 } else {
   // 正常にSQLが実行された場合は一覧ページファイルに移動し，一覧ページの処理を実行する
-  header("Location:tobuy_read.php");
+  header("Location:tobuy50_read.php");
   exit();
 }

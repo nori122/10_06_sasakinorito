@@ -23,7 +23,7 @@ a {
 }
 
 a:visited {
-  color:f2f2b0;
+  color:#f2f2b0;
 }
 
   /* 主にinput */
@@ -67,15 +67,20 @@ a:visited {
 }
 
   /* 主にRead */
-
+      legend{
+        font-size: 30px;
+        color:#66664a ;
+        margin: 10px 0 0 5px;
+      }
       .tab {
         overflow: hidden;
-        border: 1px solid #ccc;
+        border-bottom: 1px solid #333325;
         background-color: #f2f2b0;
       }
 
       .tab button {
         background-color: inherit;
+        font-family :'Sawarabi Mincho','Nico Moji',sans-serif,serif;
         float: left;
         border: none;
         outline: none;
@@ -90,22 +95,25 @@ a:visited {
       }
 
       .tab button.active {
-        background-color: #ccc;
+        background-color: #999970;
       }
 
       .tabcontent {
         display: none;
         padding: 6px 24px;
-        border: 1px solid #ccc;
+        /* border: 1px solid #333325; */
         border-top: none;
       }
 
       th {
         text-align: left;
-        border-bottom: solid 1px lightgray;      }
+        border-bottom: solid 1px #333325;
+      }
 
       td {
         font-size: 14px;
+        border-bottom: solid 0.5px #cccc95;
+
       }
 
       .itemColumn {

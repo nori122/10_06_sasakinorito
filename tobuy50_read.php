@@ -144,9 +144,14 @@ if ($status == false) {
 ?>
 
 
-<!-------------- 
-    HTML要素
- -------------->
+
+
+<!---------------------
+     HTML 要素
+--------------------->
+
+
+
 
 
 <!DOCTYPE html>
@@ -158,12 +163,12 @@ if ($status == false) {
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>お買い物リスト（一覧画面）</title>
+  <title>お買い物リスト</title>
 </head>
 
 <body>
   <!-- <fieldset> -->
-  <legend>お買い物リスト（一覧画面）</legend>
+  <legend>お買い物リスト</legend>
   <br>
 
 
@@ -241,7 +246,7 @@ if ($status == false) {
 
   <br>
   <a href="tobuy40_input.php">新規登録画面へ</a>
-  <a href="tobuy40_input.php">新規登録画面へ</a>
+  <a href="tobuy30_logout.php">logout</a>
 
 
   <!---------------------

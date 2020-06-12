@@ -1,7 +1,17 @@
 <!---------------------
+     php 要素
+--------------------->
+<?php
+session_start();
+include('functions.php');
+check_session_id();
+?>
+
+
+
+<!---------------------
      HTML 要素
 --------------------->
-
 
 <!DOCTYPE html>
 <html lang="ja">
