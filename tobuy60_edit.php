@@ -10,7 +10,10 @@
 // exit();
 
 // 関数ファイルの読み込み
-include("functions.php");
+session_start();
+include('functions.php');
+check_session_id();
+
 
 
 // idの受け取り
@@ -69,7 +72,7 @@ if ($status == false) {
 <body>
   <form action="tobuy61_update.php" method="POST">
     <fieldset>
-      <legend>お買い物リスト（編集画面）</legend>
+      <legend>リスト編集</legend>
       <div>
         買うもの: <input type="text" name="item" value="<?= $record["item"] ?>">
       </div>

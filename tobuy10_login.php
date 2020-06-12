@@ -15,13 +15,13 @@
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
-  <title>todoリストログイン画面</title>
+  <title>お買い物リストログイン</title>
 </head>
 
 <body>
   <form action="tobuy11_login_act.php" method="POST">
     <fieldset>
-      <legend>todoリストログイン画面</legend>
+      <legend>ログイン</legend>
       <div>
         user_id: <input type="text" name="user_id">
       </div>

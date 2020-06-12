@@ -30,7 +30,7 @@ check_session_id();
 
       <form action="tobuy41_create.php" method="POST">
 
-        <legend>お買い物リスト<br>（入力画面）</legend>
+        <legend>アイテム追加</legend>
         <br>
 
 

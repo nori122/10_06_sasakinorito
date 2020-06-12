@@ -4,7 +4,9 @@
 
 
 <?php
+session_start();
 include('functions.php');
+check_session_id();
 
 
 /* ---------------------------------- */
@@ -246,6 +248,7 @@ if ($status == false) {
 
   <br>
   <a href="tobuy40_input.php">新規登録画面へ</a>
+  <br>
   <a href="tobuy30_logout.php">logout</a>
 
 
