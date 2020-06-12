@@ -8,14 +8,13 @@ session_start();
 include('functions.php');
 check_session_id();
 
+// DB接続の設定
+// DB名は`gsacf_x00_00`にする
+$pdo = connect_to_db();
 
 /* ---------------------------------- */
 /* Case1:supermarket                  */
 /* ---------------------------------- */
-
-// DB接続の設定
-// DB名は`gsacf_x00_00`にする
-$pdo = connect_to_db();
 
 
 // データ取得SQL作成
@@ -161,6 +160,9 @@ if ($status == false) {
 
 <head>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/earlyaccess/hannari.css" rel="stylesheet">
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
 
   <meta charset="UTF-8">
@@ -170,6 +172,7 @@ if ($status == false) {
 
 <body>
   <!-- <fieldset> -->
+  <span style="margin-left:10px;">(<?= $_SESSION["user_name"] ?>用)</span>
   <legend>お買い物リスト</legend>
   <br>
 

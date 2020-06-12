@@ -58,6 +58,7 @@ if (!$val) {
   $_SESSION["session_id"] = session_id();
   $_SESSION["is_admin"] = $val["is_admin"];
   $_SESSION["user_id"] = $val["user_id"];
+  $_SESSION["user_name"] = $val["user_name"];
   header("Location:tobuy50_read.php");
   exit();
 }
